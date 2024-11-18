@@ -1,0 +1,31 @@
+{
+  "name": "jcl-custom-modal",
+  "version": "0.1.4",
+  "description": "A customizable modal component for React by jcl.",
+  "main": "dist/JclModal.js",
+  "files": [
+    "dist",
+    "README.md",
+    "docs",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "babel src/lib --out-dir dist && npx cpx src/lib/*.css dist",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "author": "JacquesClermontFanLubLou",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.24.7",
+    "babel-loader": "^8.4.1",
+    "cpx": "^1.5.0"
+  }
+}
