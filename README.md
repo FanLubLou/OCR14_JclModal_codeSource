@@ -11,15 +11,15 @@
 To install the package, use npm or yarn:
 
 bash
-npm `install jcl-custom-modal`
+`npm install jcl-custom-modal`
 or 
 bash
-yarn `add jcl-custom-modal`
+`yarn add jcl-custom-modal`
 
 ## Usage
 Heres a simple example of how to use the JclModal component in your React application:
 
-
+``` js
 import React, { useState } from 'react';
 import JclModal from 'jcl-custom-modal'; // Import the modal component
 import 'jcl-custom-modal/dist/JclModal.css'; // Import the CSS styles
@@ -38,7 +38,9 @@ const App = () => {
   );
 };
 
-export default App;`
+export default App;
+
+```
 
 ## Props
  - `isOpen` (boolean): Controls whether the modal is visible.
@@ -53,5 +55,5 @@ To customize the appearance of the modal, you can override the default CSS style
     - `.close-button`: The close button.
 
 ## Link
-https://www.npmjs.com/package/jcl-custom-modal# OCR14_JclModal_codeSource
+https://www.npmjs.com/package/jcl-custom-modal
 # OCR14_JclModal_codeSource
