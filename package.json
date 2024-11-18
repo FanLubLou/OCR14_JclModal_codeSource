@@ -1,7 +1,8 @@
 {
   "name": "jcl-custom-modal",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A customizable modal component for React by jcl.",
+  "keywords": ["react","modal","component","UI"],
   "main": "dist/JclModal.js",
   "files": [
     "dist",
